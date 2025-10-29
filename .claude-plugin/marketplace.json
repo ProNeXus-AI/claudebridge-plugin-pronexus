@@ -13,9 +13,7 @@
         "name": "ProNeXus AIAA / Oly Bonnard",
         "url": "https://pronexus.ai"
       },
-      "source": {
-        "url": "https://pronexus-ai.github.io/claudebridge-plugin-pronexus/claude-plugin/plugin.json"
-      },
+      "source": "https://pronexus-ai.github.io/claudebridge-plugin-pronexus/claude-plugin/plugin.json",
       "tags": ["pronexus", "claudebridge", "mcp", "galaxlytique", "aiaa"]
     }
   ]
