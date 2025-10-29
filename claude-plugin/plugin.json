@@ -1,0 +1,38 @@
+{
+  "name": "ClaudeBridge ProNeXus",
+  "version": "1.0.0",
+  "description": "Extension ProNeXus pour Claude Code — skills IA, agents et commandes intégrés au Bridge local.",
+  "entry_point": "skills/",
+  "mcp": {
+    "server": "claudebridge-pronexus",
+    "type": "local"
+  },
+  "skills": [
+    {
+      "id": "dvf-score",
+      "name": "DVF Score Estimator",
+      "description": "Analyse et scoring automatique de biens immobiliers (DVF / Sogefi).",
+      "path": "skills/dvf-score.SKILL.md"
+    },
+    {
+      "id": "notion-publish",
+      "name": "Notion Publisher",
+      "description": "Publie automatiquement des fiches GalaXLytique™ vers Notion.",
+      "path": "skills/notion-publish.SKILL.md"
+    }
+  ],
+  "commands": [
+    {
+      "id": "pnxsnap",
+      "name": "📸 PNX Snap",
+      "description": "Capture et résume le contexte d’un projet en cours via ClaudeBridge."
+    }
+  ],
+  "agents": [
+    {
+      "id": "pnx-planner",
+      "name": "🧠 PNX Planner",
+      "description": "Agent de planification stratégique GalaXLytique™"
+    }
+  ]
+}
