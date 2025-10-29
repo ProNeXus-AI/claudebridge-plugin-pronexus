@@ -1,15 +1,22 @@
 {
+  "name": "pronexus-marketplace",
+  "owner": {
+    "name": "ProNeXus-AI",
+    "url": "https://github.com/ProNeXus-AI"
+  },
   "plugins": [
     {
-      "id": "claudebridge-pronexus",
-      "name": "ClaudeBridge ProNeXus",
+      "name": "claudebridge-pronexus",
       "version": "1.0.0",
-      "description": "Skills, agents et commandes ProNeXus™ pour Claude Code — connectés au Bridge MCP local.",
-      "author": "ProNeXus™ AIAA / Oly Bonnard",
-      "homepage_url": "https://pronexus-ai.github.io/claudebridge-plugin-pronexus/",
-      "plugin_url": "https://pronexus-ai.github.io/claudebridge-plugin-pronexus/.claude-plugin/plugin.json",
-      "icon_url": "https://pronexus.ai/assets/icon-claudebridge.png",
-      "tags": ["ProNeXus", "ClaudeBridge", "GalaXLytique", "MCP", "AIAA"]
+      "description": "Skills, agents et commandes ProNeXus pour Claude Code — connectés au Bridge MCP local.",
+      "author": {
+        "name": "ProNeXus AIAA / Oly Bonnard",
+        "url": "https://pronexus.ai"
+      },
+      "source": {
+        "url": "https://pronexus-ai.github.io/claudebridge-plugin-pronexus/claude-plugin/plugin.json"
+      },
+      "tags": ["pronexus", "claudebridge", "mcp", "galaxlytique", "aiaa"]
     }
   ]
 }
