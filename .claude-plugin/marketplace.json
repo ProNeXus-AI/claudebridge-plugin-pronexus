@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    {
+      "id": "claudebridge-pronexus",
+      "name": "ClaudeBridge ProNeXus",
+      "version": "1.0.0",
+      "description": "Skills, agent et slash command ProNeXus pour Claude Code.",
+      "path": "."
+    }
+  ]
+}

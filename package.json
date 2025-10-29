@@ -1,0 +1,23 @@
+{
+  "name": "claudebridge-plugin-pronexus",
+  "version": "1.0.0",
+  "description": "Plugin Claude Code officiel ProNeXus™ (skills, subagents, slash, MCP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProNeXus-AI/claudebridge-plugin-pronexus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProNeXus-AI/claudebridge-plugin-pronexus/issues"
+  },
+  "homepage": "https://github.com/ProNeXus-AI/claudebridge-plugin-pronexus#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

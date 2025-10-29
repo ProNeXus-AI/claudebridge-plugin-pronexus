@@ -1,0 +1,12 @@
+{
+  "name": "claudebridge-pronexus",
+  "version": "1.0.0",
+  "description": "ClaudeBridge ProNeXus: skills, subagent, slash, MCP.",
+  "author": {
+    "name": "ProNeXus"
+  },
+  "skills": "./skills",
+  "agents": "./agents/pnx-planner.md",
+  "commands": "./commands",
+  "hooks": "./hooks/hooks.json"
+}
