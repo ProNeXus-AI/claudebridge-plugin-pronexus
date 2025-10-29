@@ -1,6 +1,6 @@
 {
   "name": "pronexus-marketplace",
-  "owner": "ProNeXus-AI",
+  "owner": { "name": "ProNeXus-AI" },
   "plugins": [
     {
       "name": "claudebridge-pronexus",
