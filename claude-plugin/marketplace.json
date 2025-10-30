@@ -3,17 +3,6 @@
   "owner": { "name": "ProNeXus-AI" },
   "plugins": [
     {
-      "name": "claudebridge-pronexus",
-      "version": "1.0.0",
-      "description": "ClaudeBridge ProNeXus plugin",
-      "source": "./claude-plugin/claudebridge-pronexus"
-    }
-  ]
-}
-
-{
-  "plugins": [
-    {
       "id": "claudebridge-pronexus",
       "name": "claudebridge-pronexus",
       "version": "1.0.0",
