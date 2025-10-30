@@ -3,7 +3,6 @@
   "owner": { "name": "ProNeXus-AI" },
   "plugins": [
     {
-      "id": "claudebridge-pronexus",
       "name": "claudebridge-pronexus",
       "version": "1.0.0",
       "description": "Skills, agents et commandes ProNeXus™ pour Claude Code — connectés au Bridge MCP local.",
