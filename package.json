@@ -2,8 +2,10 @@
   "name": "claudebridge-plugin-pronexus",
   "version": "1.0.0",
   "description": "Plugin Claude Code officiel ProNeXus™ (skills, subagents, slash, MCP)",
-  "main": "index.js",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/ProNeXus-AI/claudebridge-plugin-pronexus#readme",
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
     "node-fetch": "^3.3.2"
   }
 }
