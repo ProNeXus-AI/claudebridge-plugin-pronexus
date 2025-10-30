@@ -7,11 +7,8 @@
       "name": "claudebridge-pronexus",
       "version": "1.0.0",
       "description": "Skills, agents et commandes ProNeXus™ pour Claude Code — connectés au Bridge MCP local.",
-      "author": "ProNeXus AIAA / Oly Bonnard",
-      "homepage_url": "https://pronexus-ai.github.io/claudebridge-plugin-pronexus/",
-      "plugin_url": "https://pronexus-ai.github.io/claudebridge-plugin-pronexus/claude-plugin/plugin.json",
-      "icon_url": "https://pronexus.ai/assets/icon-claudebridge.png",
-      "tags": ["ProNeXus", "ClaudeBridge", "GalaXLytique", "MCP", "AIAA"]
+      "source": "./plugin.json",
+      "category": "productivity"
     }
   ]
 }
