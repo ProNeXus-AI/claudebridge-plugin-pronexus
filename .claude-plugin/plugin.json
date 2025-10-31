@@ -1,7 +1,7 @@
 {
   "name": "ClaudeBridge ProNeXus",
-  "version": "1.0.0",
-  "description": "Extension ProNeXus pour Claude Code — skills IA, agents et commandes intégrés au Bridge local.",
+  "version": "1.1.0",
+  "description": "Extension ProNeXus pour Claude Code — skills IA, agents et commandes intégrés au Bridge local avec synchronisation mémoire bidirectionnelle.",
   "entry_point": "skills/",
   "mcp": {
     "server": "claudebridge-pronexus",
@@ -25,7 +25,17 @@
     {
       "id": "pnxsnap",
       "name": "📸 PNX Snap",
-      "description": "Capture et résume le contexte d’un projet en cours via ClaudeBridge."
+      "description": "Capture et résume le contexte d'un projet en cours via ClaudeBridge."
+    },
+    {
+      "id": "memory-pull",
+      "name": "📥 Memory Pull",
+      "description": "Synchronise et récupère l'état de la mémoire depuis le Forge Cloud™ ProNeXus."
+    },
+    {
+      "id": "memory-push",
+      "name": "📤 Memory Push",
+      "description": "Envoie et synchronise l'état de la mémoire locale vers le Forge Cloud™ ProNeXus."
     }
   ],
   "agents": [
@@ -34,5 +44,9 @@
       "name": "🧠 PNX Planner",
       "description": "Agent de planification stratégique GalaXLytique™"
     }
-  ]
+  ],
+  "changelog": {
+    "1.1.0": "Added bidirectional memory synchronization commands (memory-pull, memory-push)",
+    "1.0.0": "Initial release with skills, agents and pnxsnap command"
+  }
 }
