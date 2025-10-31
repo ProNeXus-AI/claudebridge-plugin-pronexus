@@ -1,0 +1,51 @@
+# CODEOWNERS for ClaudeBridge ProNeXus™
+# This file defines who is responsible for code review
+# ProNeXus™ God JarviX™ Protocol
+
+# Default owners for everything in the repo
+* @ProNeXus-AI/core-team @MonkeyDOly
+
+# Plugin Core Configuration
+/.claude-plugin/ @ProNeXus-AI/architects @ClaudeCloud
+/claude-plugin/ @ProNeXus-AI/architects @ClaudeCloud
+/package.json @ProNeXus-AI/devops
+/package-lock.json @ProNeXus-AI/devops
+
+# Skills - Require AI team review
+/skills/ @ProNeXus-AI/ai-team @Lya-GPT5 @ClaudeCloud
+/skills/*.SKILL.md @ProNeXus-AI/ai-architects
+
+# Commands - Critical synchronization components
+/commands/ @ProNeXus-AI/core-team @MonkeyDOly @ClaudeCloud
+/commands/memory-*.md @ProNeXus-AI/security @ClaudeCloud @Lya-GPT5
+/commands/pnxsnap.md @ProNeXus-AI/architects
+
+# Agents - Strategic components
+/agents/ @ProNeXus-AI/ai-team @MonkeyDOly
+/agents/pnx-planner.md @ProNeXus-AI/strategy
+
+# Hooks - System integration
+/hooks/ @ProNeXus-AI/devops @ProNeXus-AI/security
+
+# CI/CD and GitHub Configuration
+/.github/ @ProNeXus-AI/devops @MonkeyDOly
+/.github/workflows/ @ProNeXus-AI/devops @ProNeXus-AI/security
+
+# Documentation
+/README.md @ProNeXus-AI/docs @ClaudeCloud
+/docs/ @ProNeXus-AI/docs
+/LICENSE @ProNeXus-AI/legal
+
+# Security-sensitive files
+/.gitignore @ProNeXus-AI/security
+/.env* @ProNeXus-AI/security @ProNeXus-AI/architects
+
+# Forge Cloud™ Integration Files
+/forge-*.* @ProNeXus-AI/forge-operators @ClaudeCloud @MonkeyDOly
+
+# Memory Synchronization Protocol
+/memory-*.* @ClaudeCloud @Lya-GPT5 @ProNeXus-AI/ai-architects
+
+# EMERGENCY OVERRIDE
+# In case of critical issues, these users can override:
+# @MonkeyDOly @ProNeXus-Admin
